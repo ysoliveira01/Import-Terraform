@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "terraform-state-modules"
+    bucket = "terraform-state"
     key    = "terraform-state/import/terraform.state"
     region = "sa-east-1"
   }
